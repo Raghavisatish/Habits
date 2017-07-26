@@ -91,7 +91,7 @@ public class NextActivity extends AppCompatActivity {
 
     }
 
-    private void insertPet() {
+    private void insertProject() {
 
         String nameString = mNameEditText.getText().toString().trim();
         String noOfPeople = mPeopleEditText.getText().toString().trim();
@@ -134,7 +134,7 @@ public class NextActivity extends AppCompatActivity {
         switch (item.getItemId()) {
 
             case R.id.action_save:
-                insertPet();
+                insertProject();
                 finish();
                 return true;
 

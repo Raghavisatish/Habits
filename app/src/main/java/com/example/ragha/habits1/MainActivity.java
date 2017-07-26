@@ -42,7 +42,9 @@ public class MainActivity extends AppCompatActivity {
         });
         displayDatabaseInfo();
     }
-    private void displayDatabaseInfo() {
+
+
+    public Cursor displayDatabaseInfo() {
 
         HabitHelper mDbHelper = new HabitHelper(this);
 
@@ -105,10 +107,12 @@ public class MainActivity extends AppCompatActivity {
                         currentLevel + " - " +
                         currentHours));
             }
+            return cursor;
         } finally {
 
             cursor.close();
         }
+
     }
 
     @Override
@@ -118,7 +122,7 @@ public class MainActivity extends AppCompatActivity {
         return true;
     }
 
-    private void Insertpet() {
+    private void Insertproject() {
 
 
         HabitHelper mHelper = new HabitHelper(this);
@@ -147,7 +151,7 @@ public class MainActivity extends AppCompatActivity {
 
 
         if (id == R.id.insert_dummy_data) {
-            Insertpet();
+            Insertproject();
             displayDatabaseInfo();
 
 
