@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">MyHabit</string>
+    <string name="action_insert_dummy_data">Insert Dummy Data</string>
+
+    <string name="action_save">Save</string>
+
+    <string name="category_overview">Overview</string>
+
+    <string name="category_level">Difficulty_level</string>
+    <string name="hint_project_name">Name</string>
+    <string name="hint_project_no_of_people">People</string>
+    <string name="hint_no_of_hours">Hours</string>
+    <string name="level_easy">Easy</string>
+    <string name="level_medium">Medium</string>
+    <string name="level_difficult">Difficult</string>
+
+</resources>
